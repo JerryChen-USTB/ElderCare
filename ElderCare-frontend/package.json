@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "-": "^0.0.1",
+    "@dcloudio/uni-ui": "^1.5.11",
+    "cropper": "^4.1.0",
+    "crypto-js": "^4.2.0",
+    "uni": "^0.0.6"
+  }
+}

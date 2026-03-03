@@ -1,0 +1,501 @@
+{
+    "pages": [
+        {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/register/register",
+            "style": {
+                "navigationBarTitleText": "注册",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/role/role",
+            "style": {
+                "navigationBarTitleText": "选择身份",
+                "navigationStyle": "custom"
+            }
+        },
+
+        {
+            "path": "pages/user/index/index",
+            "style": {
+                "navigationBarTitleText": "用户首页",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/user/my/profile",
+            "style": {
+                "navigationBarTitleText": "个人资料",
+                "navigationStyle": "default",
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/user/my/my",
+            "style": {
+                "navigationBarTitleText": "我的",
+                "navigationStyle": "custom",
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/user/my/about",
+            "style": {
+                "navigationBarTitleText": "关于我们",
+                "navigationStyle": "default",
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/user/my/feedback",
+            "style": {
+                "navigationBarTitleText": "帮助与反馈",
+                "navigationStyle": "default",
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/guardian/index/index",
+            "style": {
+                "navigationBarTitleText": "监护者首页",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/guardian/my/my",
+            "style": {
+                "navigationBarTitleText": "我的",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/guardian/my/profile",
+            "style": {
+                "navigationBarTitleText": "个人资料",
+                "navigationStyle": "default"
+            }
+        },
+        {
+            "path": "pages/guardian/my/about",
+            "style": {
+                "navigationBarTitleText": "关于我们",
+                "navigationStyle": "default"
+            }
+        },
+        {
+            "path": "pages/guardian/my/feedback",
+            "style": {
+                "navigationBarTitleText": "帮助与反馈",
+                "navigationStyle": "default"
+            }
+        },
+        {
+            "path": "pages/volunteer/index/index",
+            "style": {
+                "navigationBarTitleText": "志愿者首页",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/volunteer/my/my",
+            "style": {
+                "navigationBarTitleText": "我的",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/volunteer/my/profile",
+            "style": {
+                "navigationBarTitleText": "个人资料",
+                "navigationStyle": "default"
+            }
+        },
+        {
+            "path": "pages/volunteer/my/service",
+            "style": {
+                "navigationBarTitleText": "服务记录",
+                "navigationStyle": "default"
+            }
+        },
+        {
+            "path": "pages/user/emergency/emergency",
+            "style": {
+                "navigationBarTitleText": "紧急情况",
+                "navigationStyle": "default",
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/user/health/health",
+            "style": {
+                "navigationBarTitleText": "健康信息",
+                "navigationStyle": "default",
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/user/appointment/appointment",
+            "style": {
+                "navigationBarTitleText": "预约信息",
+                "navigationStyle": "default",
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/user/appointment/result",
+            "style": {
+                "navigationBarTitleText": "预约结果",
+                "navigationStyle": "custom",
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/user/chat/chat",
+            "style": {
+                "navigationBarTitleText": "智能聊天",
+                "navigationStyle": "custom",
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+		{
+		    "path": "pages/user/medication/medication",
+		    "style": {
+		        "navigationBarTitleText": "用药提醒",
+		        "navigationStyle": "default",
+		        "bounce": "none",
+		        "app-plus": {
+		            "bounce": "none",
+		            "scrollIndicator": "none"
+		        },
+		        "h5": {
+		            "pullToRefresh": {
+		                "support": false
+		            }
+		        }
+		    }
+		},
+        {
+            "path": "pages/user/schedule/detail",
+            "style": {
+                "navigationBarTitleText": "日程详情",
+                "navigationStyle": "default",
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/user/schedule/new",
+            "style": {
+                "navigationBarTitleText": "新建日程",
+                "navigationStyle": "default",
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/user/schedule/edit",
+            "style": {
+                "navigationBarTitleText": "编辑日程",
+                "navigationStyle": "default",
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/user/assistance/assistance",
+            "style": {
+                "navigationStyle": "custom",
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/guardian/emergencyc",
+            "style": {
+                "navigationBarTitleText": "紧急情况处理",
+                "navigationStyle": "default"
+            }
+        },
+        {
+            "path": "pages/guardian/elderlyc",
+            "style": {
+                "navigationBarTitleText": "绑定用户管理",
+                "navigationStyle": "default"
+            }
+        },
+        {
+            "path": "pages/user/my/safe",
+            "style": {
+                "navigationBarTitleText": "账号与安全",
+                "navigationStyle": "default",
+                "bounce": "none",
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none"
+                },
+                "h5": {
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/guardian/my/safe",
+            "style": {
+                "navigationBarTitleText": "账号与安全",
+                "navigationStyle": "default"
+            }
+        },
+        {
+            "path": "pages/guardian/elderly/video",
+            "style": {
+                "navigationBarTitleText": "视频通话",
+                "navigationStyle": "default"
+            }
+        },
+        {
+            "path": "pages/guardian/elderly/healthrecord",
+            "style": {
+                "navigationBarTitleText": "健康信息历史记录",
+                "navigationStyle": "default"
+            }
+        },
+        {
+            "path": "pages/guardian/elderly/medicineremind",
+            "style": {
+                "navigationBarTitleText": "用药提醒详情",
+                "navigationStyle": "default"
+            }
+        },
+		{
+		    "path": "pages/guardian/elderly/medicine-edit",
+		    "style": {
+		        "navigationBarTitleText": "增加用药提醒",
+		        "navigationStyle": "default"
+		    }
+		},
+		{
+            "path": "pages/volunteer/index/task",
+            "style": {
+                "navigationBarTitleText": "任务列表",
+                "navigationStyle": "default"
+            }
+        },
+        {
+            "path": "pages/volunteer/index/service_record",
+            "style": {
+                "navigationBarTitleText": "服务记录",
+                "navigationStyle": "default"
+            }
+        },
+		{
+		    "path": "pages/volunteer/index/calender",
+		    "style": {
+		        "navigationBarTitleText": "日程管理",
+		        "navigationStyle": "default"
+		    }
+		},
+        {
+            "path": "pages/volunteer/remote-service/remote-service",
+            "style": {
+                "navigationBarTitleText": "远程协助服务",
+                "navigationStyle": "default"
+            }
+        },
+		{
+		  "path": "pages/volunteer/my/about",
+		  "style": {
+		    "navigationBarTitleText": "关于我们"
+		  }
+		},
+		{
+		  "path": "pages/volunteer/my/feedback",
+		  "style": {
+		    "navigationBarTitleText": "帮助与反馈"
+		  }
+		},
+		{
+			"path" : "pages/TUICallKit-demo/TUICallKit-demo",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path": "pages/test/tts-test",
+			"style": {
+				"navigationBarTitleText": "语音合成测试",
+				"navigationStyle": "custom"
+			}
+		}
+    ],
+    "easycom": {
+        "autoscan": true,
+        "custom": {
+            "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+        }
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "智慧养老助手",
+        "navigationBarBackgroundColor": "#ffffff",
+        "backgroundColor": "#f8f9fa",
+        "app-plus": {
+            "background": "#f8f9fa"
+        }
+    }
+}

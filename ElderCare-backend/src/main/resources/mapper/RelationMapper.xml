@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.ustb.eldercarebackend.mapper.RelationMapper">
+
+    <!-- 根据老年人ID查询所有监护人关系 -->
+    <select id="selectByElderlyId" resultType="edu.ustb.eldercarebackend.entity.Relation">
+        SELECT *
+        FROM relations
+        WHERE elderly_id = #{elderlyId}
+        ORDER BY is_primary DESC, created_at ASC
+    </select>
+
+    <!-- 检查监护关系是否存在 -->
+    <select id="selectByGuardianAndElderly" resultType="edu.ustb.eldercarebackend.entity.Relation">
+        SELECT *
+        FROM relations
+        WHERE guardian_id = #{guardianId}
+          AND elderly_id = #{elderlyId}
+        LIMIT 1
+    </select>
+
+</mapper>
+

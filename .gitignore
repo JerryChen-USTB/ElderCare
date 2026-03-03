@@ -1,0 +1,154 @@
+# ================================================================
+# ElderCare 项目 .gitignore 配置
+# ================================================================
+
+# Maven 编译输出（必须ignore，几十MB大小）
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Spring Boot 日志文件
+*.log
+*.log.*
+logs/
+/log/
+
+# ================================================================
+# IDE 配置文件（个人化设置，不应该共享）
+# ================================================================
+
+## IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+## Eclipse
+.metadata
+.project
+.classpath
+.settings/
+bin/
+
+## VSCode
+.vscode/
+*.code-workspace
+
+## Visual Studio
+.vs/
+
+## NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ================================================================
+# Node.js / 前端依赖（node_modules可能几百MB）
+# ================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 前端构建输出
+/dist/
+/build/
+
+# UniApp 编译输出（整个 unpackage 目录均为本地构建产物）
+**/unpackage/
+
+# ================================================================
+# 敏感配置文件（包含密码、API密钥等）
+# ================================================================
+# 生产环境配置
+application-prod.yml
+application-dev.yml
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ================================================================
+# 操作系统生成的文件
+# ================================================================
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# JVM 崩溃和回放日志（由 JVM 崩溃时生成）
+hs_err_pid*.log
+replay_pid*.log
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+## Linux
+*~
+.nfs*
+
+# ================================================================
+# 临时文件和备份
+# ================================================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.backup
+*.orig
+
+# ================================================================
+# 数据库文件（本地测试数据）
+# ================================================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ================================================================
+# 上传文件目录（用户上传的文件）
+# ================================================================
+/uploads/
+/files/
+/static/uploads/
+
+# ================================================================
+# 测试和覆盖率报告
+# ================================================================
+/coverage/
+*.lcov
+/test-results/
+
+# ================================================================
+# 其他
+# ================================================================
+*.pid
+*.seed
+*.gz
+
+data/
+ElderCare-backend/tts_audio_cache/
+report/
+documents/
+ElderCare-backend/report/
+ElderCare-backend/sample_code/
+ElderCare-backend/src/main/resources/爬虫网页示例/
+
+# 用户上传的头像文件（含用户个人数据），保留默认头像
+# 注意：git 不支持对已忽略目录内文件使用 ! 例外，故只忽略用户头像文件本身
+ElderCare-backend/src/main/resources/static/uploads/avatars/avatar_*
+# 语音识别录音文件
+ElderCare-backend/src/main/resources/Speech_to_Text_Records/
